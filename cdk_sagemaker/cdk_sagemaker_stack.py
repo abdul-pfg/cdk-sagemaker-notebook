@@ -11,7 +11,7 @@ class CdkSagemakerStack(core.Stack):
         bucket1 = s3.Bucket(self,
     		"BucketCDK", 
     		versioned=True,
-    		bucket_name='cdk-sagemaker-bucket-s843971',
+    		bucket_name='cdk-sagemaker-bucket-s843971001',
             removal_policy=core.RemovalPolicy.DESTROY)
 
         sm_notebook = sagemaker.CfnNotebookInstance(self,
